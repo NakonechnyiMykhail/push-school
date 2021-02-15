@@ -1,0 +1,36 @@
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+.\venv\Scripts\activate
+
+cd python
+python name.py
+pip3 install PIL
+
+python -m venv venv
+#windows
+.\venv\Scripts\activate
+# unix/linux/mac
+source venv/bin/activate
+
+# GIT
+git init
+
+git config --global user.name "Mikhail"
+git config --global user.email "mykhail.nakonechnyi.com"
+
+…or create a new repository on the command line
+
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/NakonechnyiMykhail/DjangoStart.git
+git push -u origin master
+                
+
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/NakonechnyiMykhail/DjangoStart.git
+git branch -M master
+git push -u origin master
+
+
+#### django 
+python 
